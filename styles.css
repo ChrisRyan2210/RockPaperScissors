@@ -6,6 +6,7 @@ html, body {
 .page-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
     min-height: 100vh; /* Ensures full height */
 }
 
@@ -19,8 +20,7 @@ html, body {
 
     display: flex;
     justify-content: center;
-    background-color: lightcoral;
-    margin-top: auto;
+    background-color: lightcoral;   
 }
 
 .player-option-container {
@@ -28,6 +28,22 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 46px;
 }
 
+.option-buttons {
+
+    padding: 20px;
+    width: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
