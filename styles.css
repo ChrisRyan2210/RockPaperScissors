@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;  
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full height */
+}
+
+.header {
+    display: flex;  
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    margin-top: auto;
+}
+
+.player-option-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
